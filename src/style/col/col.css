@@ -1,0 +1,10 @@
+@import url(./__one/col__one.css);
+@import url(./__two/col__two.css);
+.col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,4 @@
+.col__two{
+    display: flex;
+    flex-direction: column;
+}

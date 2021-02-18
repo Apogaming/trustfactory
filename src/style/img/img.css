@@ -1,0 +1,7 @@
+.img img {
+  width: 40vh;
+  transition: 1s ease-in-out;
+  transition-delay: .4s;
+  border-radius: 50%;
+  margin-top: 1rem;
+}

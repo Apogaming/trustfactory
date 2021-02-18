@@ -1,0 +1,25 @@
+.text {
+    margin: 4rem;
+    color: var(--white);
+}
+
+.text h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 2rem 0;
+    transition: 1s ease-in-out;
+}
+
+.text p {
+    font-weight: 600;
+    transition: 1s ease-in-out;
+    transition-delay: .2s;
+}
+
+.text.sign-in h2, .text.sign-in p, .img.sign-in img {
+    transform: translateX(-250%);
+}
+
+.text.sign-up h2, .text.sign-up p, .img.sign-up img {
+    transform: translateX(250%);
+}

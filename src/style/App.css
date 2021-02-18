@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #4669c8;
+  --secondary-color: #23335f;
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #efefef;
+  --facebook-color: #4267B2;
+  --youtube-color: #DB4437;
+  --insta-color: #E1306C;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url(./col/col.css);
+@import url(./container/container.css);
+@import url(./row/row.css);
+@import url(./form-wrapper/form-wrapper.css);
+@import url(./form/form.css);
+@import url(./input-group/input-group.css);
+@import url(./social-list/social-list.css);
+@import url(./icon/icon.css);
+@import url(./text/text.css);
+@import url(./img/img.css);
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container.sign-in .form.sign-in, .container.sign-in .social-list.sign-in, .container.sign-in .social-list.sign-in>div, .container.sign-up .form.sign-up, .container.sign-up .social-list.sign-up, .container.sign-up .social-list.sign-up>div {
+  transform: scale(1);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container.sign-in .text.sign-in h2, .container.sign-in .text.sign-in p, .container.sign-in .img.sign-in img, .container.sign-up .text.sign-up h2, .container.sign-up .text.sign-up p, .container.sign-up .img.sign-up img {
+  transform: translateX(0);
+}
+
