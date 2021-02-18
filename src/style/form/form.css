@@ -1,10 +1,10 @@
 @import url(./__button/form__button.css);
 .form {
-  padding: 1rem;
+  padding: 2rem;
   background-color: var(--white);
   border-radius: 1.5rem;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(124, 122, 122, 0.35) 0px 5px 15px;
   transform: scale(0);
   transition: .5s ease-in-out;
   transition-delay: 1s ;

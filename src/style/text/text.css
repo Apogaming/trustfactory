@@ -8,12 +8,14 @@
     font-weight: 800;
     margin: 2rem 0;
     transition: 1s ease-in-out;
+    text-align: left;
 }
 
 .text p {
-    font-weight: 600;
+    font-weight: 400;
     transition: 1s ease-in-out;
     transition-delay: .2s;
+    text-align: left;
 }
 
 .text.sign-in h2, .text.sign-in p, .img.sign-in img {

@@ -26,6 +26,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+b{
+  font-size: 1rem;
+  color: var(--primary-color);
+}
 
 .body {
   height: 100vh;
