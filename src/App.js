@@ -31,7 +31,7 @@ function App() {
                 </div>
                 <div className="input-group">
                   <i className='bx bxs-lock-alt' ></i>
-                  <input type="password" placeholder="Comfirm password" />
+                  <input type="password" placeholder="Confirm password" />
                 </div>
                 <button className="form__button">
                   Sign up

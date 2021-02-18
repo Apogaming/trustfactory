@@ -1,7 +1,7 @@
 .img img {
   width: 40vh;
   transition: 1s ease-in-out;
-  transition-delay: .4s;
+  transition-delay: 0.4s;
   border-radius: 50%;
   margin-top: 1rem;
   opacity: 0.6;
@@ -14,3 +14,9 @@
   opacity: 0.4;
 
 } */
+
+@media only screen and (max-width: 425px) {
+  .img img{
+    width: 20vh;
+  }
+}
