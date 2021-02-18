@@ -4,8 +4,8 @@
     padding: .6rem 0;
     border-radius: .5rem;
     border:none;
-    background-color: var(--priramy-color);
-    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--white);
     font-size: 1.2rem;
     outline: none;
 }
