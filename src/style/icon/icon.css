@@ -2,8 +2,6 @@
 @import url(./__yt/icon__yt.css);
 @import url(./__in/icon__in.css);
 
-
-
 .icon {
   color: var(--white);
   margin: 0 0.5rem;
@@ -21,3 +19,9 @@
   transform: scale(1.5);
 }
 
+@media only screen and (max-width: 425px) {
+  .icon i {
+    font-size: 1rem;
+    padding: 0;
+}
+}

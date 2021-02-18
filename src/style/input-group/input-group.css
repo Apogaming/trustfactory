@@ -26,4 +26,7 @@
   .input-group input {
     font-size: .8rem;
   }
+  .input-group {
+    margin: 0.5rem 0;
+  }
 }
