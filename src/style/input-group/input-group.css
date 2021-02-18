@@ -22,3 +22,8 @@
 .input-group input:focus {
   border: 0.125rem solid var(--priramy-color);
 }
+@media only screen and (max-width: 425px) {
+  .input-group input {
+    font-size: .8rem;
+  }
+}

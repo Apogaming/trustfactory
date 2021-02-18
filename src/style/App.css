@@ -4,9 +4,9 @@
   --black: #000000;
   --white: #ffffff;
   --gray: #efefef;
-  --facebook-color: #4267B2;
-  --youtube-color: #DB4437;
-  --insta-color: #E1306C;
+  --facebook-color: #4267b2;
+  --youtube-color: #db4437;
+  --insta-color: #e1306c;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
@@ -26,7 +26,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-b{
+b {
   font-size: 1rem;
   color: var(--primary-color);
 }
@@ -36,7 +36,12 @@ b{
   overflow: hidden;
 }
 
-.container.sign-in .form.sign-in, .container.sign-in .social-list.sign-in, .container.sign-in .social-list.sign-in>div, .container.sign-up .form.sign-up, .container.sign-up .social-list.sign-up, .container.sign-up .social-list.sign-up>div {
+.container.sign-in .form.sign-in,
+.container.sign-in .social-list.sign-in,
+.container.sign-in .social-list.sign-in > div,
+.container.sign-up .form.sign-up,
+.container.sign-up .social-list.sign-up,
+.container.sign-up .social-list.sign-up > div {
   transform: scale(1);
 }
 
@@ -44,7 +49,17 @@ b{
   cursor: pointer;
 }
 
-.container.sign-in .text.sign-in h2, .container.sign-in .text.sign-in p, .container.sign-in .img.sign-in img, .container.sign-up .text.sign-up h2, .container.sign-up .text.sign-up p, .container.sign-up .img.sign-up img {
+.container.sign-in .text.sign-in h2,
+.container.sign-in .text.sign-in p,
+.container.sign-in .img.sign-in img,
+.container.sign-up .text.sign-up h2,
+.container.sign-up .text.sign-up p,
+.container.sign-up .img.sign-up img {
   transform: translateX(0);
 }
 
+@media only screen and (max-width: 425px) {
+  b {
+    font-size: 0.8rem;
+  }
+}
