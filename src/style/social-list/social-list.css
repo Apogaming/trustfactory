@@ -35,3 +35,10 @@
   transition-delay: 1.8s;
 }
 
+@media only screen and (max-width: 425px) {
+  .social-list{
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+ }

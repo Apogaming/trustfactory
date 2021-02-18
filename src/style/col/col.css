@@ -12,7 +12,7 @@
   .col {
     width: 100%;
     position: absolute;
-    padding: 2rem;
+    padding: 1rem;
     background-color: var(--white);
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
